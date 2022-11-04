@@ -35,7 +35,7 @@ int main() {
         std::cout << "You did not enter a valid temperature. Please try again."
         << std::endl;
         // Function to end program
-        abort();
+        exit(1);
     }
     // Get the users occupation as an integer
     std::cout << "Enter your occupation (enter '1' if you are a scientist, or";
